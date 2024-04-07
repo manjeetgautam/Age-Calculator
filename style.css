@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(255, 0, 255),rgb(0, 255, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 500px;
+    width: 600px;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+
+.name{
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.562);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.name h1{
+    color: rgb(253, 253, 17);
+    font-size: 50px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+
+.name h3{
+    color: white;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(253, 253, 17);
+    width: 220px;
+    margin-left: 20px;
+
+}
+.main{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.192);
+}
+
+.main input{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 3px;
+    outline: none;
+    
+
+}
+
+.main button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(253, 253, 17);
+    border: 2px solid rgb(253, 253, 17);
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.main button:hover{
+    background-color: rgb(248, 248, 3);
+    border: 2px solid rgb(248, 248, 3);
+    transition: ease;
+    cursor: pointer;
+}
+
+.result{
+    width: 100%;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ans{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 10px;
+    border-radius: 5px;
+}
